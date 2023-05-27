@@ -1,0 +1,118 @@
+.header{
+    background-color:  rgb(252, 240, 228 );
+    display: flex;
+    width: 90%;
+    height: 16rem;
+    align-items: center;
+    margin-left: 3.5rem;
+    }
+    
+    .btnCont{
+        flex-basis: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 6rem;
+        color: rgb(1, 60, 41);
+    }
+    
+    .headerBtn{
+        background-color: rgb(1, 60, 41);
+        color: white;
+        border-radius: 20px;
+        width: 9vw;
+       height: 12vh;
+       margin-bottom: 2rem;
+        font-family: 'Archivo', sans-serif;
+        font-weight: bold;
+        border: none;
+        font-size: 0.9rem;
+        
+    }
+    
+    .headerTitulo{
+        font-size: 2.5rem;
+        font-family: 'Archivo', sans-serif;
+    
+    }
+    
+    .img{
+        margin-right: 7rem;
+    }
+
+    /* Media queries */
+@media (min-width: 320px) and (max-width: 550px)  {
+    .header {
+        flex-direction: column;
+        text-align: center;
+        margin-left: 5vw;
+        
+    
+    }
+
+    .btnCont {
+        margin-left: 2em;
+        display: flex;
+        align-items: center;
+    }
+
+    .headerBtn {
+        width: 25vw;
+        height: 5vh;
+    }
+
+    .headerTitulo {
+        font-size: 2rem;
+    }
+
+    .img {
+        display: none;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 768px) {
+    .header{
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    .btnCont {
+        margin-left: 2rem;
+    }
+
+    .headerBtn {
+        width: 13vw;
+        height: 5vh;
+    }
+
+    .headerTitulo {
+        font-size: 2rem;
+    }
+
+    .img {
+        margin-right: 0rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .header{
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+    .btnCont {
+        margin-left: 4rem;
+
+    }
+
+    .headerBtn {
+        width: 13vw;
+        height: 5vh;
+    }
+
+    .headerTitulo {
+        font-size: 2rem;
+    }
+
+    .img {
+        margin-right: 0rem;
+    }
+}
