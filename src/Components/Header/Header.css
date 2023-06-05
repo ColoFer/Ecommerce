@@ -40,7 +40,7 @@
         margin-right: 7rem;
     }
 
-    /* Media queries */
+ 
 @media (min-width: 320px) and (max-width: 550px)  {
     .header {
         flex-direction: column;
